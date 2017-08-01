@@ -1,0 +1,115 @@
+
+/* Import fonts */
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,900);
+
+* { 
+	margin: 0;
+	padding: 0px;
+    font-family: 'Lato', sans-serif;
+} 
+body { 
+	background: #000000; 
+	margin: 0; 
+	color: #5a5a5a;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lato', sans-serif;
+	font-weight: 300;
+}
+
+
+p { 
+	padding: 0; 
+	margin-bottom: 12px; 
+    font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 16px; 
+	line-height: 26px;
+	letter-spacing: 1px;
+	color: #666; 
+	margin-top: 10px; 
+}
+
+html,
+body {
+	height: 100%;
+}
+
+a { 
+	padding: 0;
+	margin: 0;
+	text-decoration: none; 
+	-webkit-transition: background-color .4s linear, color .4s linear;
+	-moz-transition: background-color .4s linear, color .4s linear;
+	-o-transition: background-color .4s linear, color .4s linear;
+	-ms-transition: background-color .4s linear, color .4s linear;
+	transition: background-color .4s linear, color .4s linear;
+	color: #1abc9c;
+}
+a:hover,
+a:focus {
+  text-decoration: none;
+  color:#696E74;
+}
+
+.nopadding {
+	padding: 0px !important;
+	margin: 0px;
+}
+
+.icon {
+    width: 100px;
+}
+
+/* HEADER SECTION */
+#h {
+	padding-top: 180px;
+	text-align:center;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 700px;
+	width: 100%;
+	color: white;
+	
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#h .logo {
+	top: 30px;
+	left: 45px;
+	font-size: 18px;
+	font-weight: 900;
+	position:absolute; 
+}
+
+#h .social {
+	top: 30px;
+	right: 45px;
+	font-size: 20px;
+	position: absolute;
+}
+
+#h .social i {
+	margin-left: 20px;
+}
+
+#h .social a {
+	color: white;
+}
+
+#h h1 {
+	font-weight: 700;
+	color: white;
+	font-size: 40px;
+    margin: .67em 0;
+    font-size: 2em;
+}
